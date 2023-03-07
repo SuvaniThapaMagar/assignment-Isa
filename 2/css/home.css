@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-color:#ffd7bc;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 0;
+}
+nav .logo{
+margin-right: 10px;
+font-family: 'Ballet', cursive;
+}
+nav .logo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}
+nav form{
+    float: right;
+    margin-top: 3px;
+}
+nav input{
+    background: rgb(255, 247, 247);
+    color: rgb(9, 10, 12);
+    height: 10px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+nav i{
+    float: right;
+    margin-left: 3px;    
+    margin-right: 3px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+.Background{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 50px;
+}
+.head-contain{
+padding: 10px;
+
+}
+.head-contain .logo a img{
+width: 200px;
+height: 70px;
+
+}
+.head-contain ul button{
+font-size: 30px;
+}
+.head-contain ul li{
+font-family: 'Press Start 2P', cursive;
+display: inline;
+margin: 20px 50px;
+font-size: 22px;
+}
+.head-contain ul li a{
+text-decoration: none;
+color: rgb(252, 244, 244);
+}
+.head-contain ul li a:hover{
+color: rgb(150, 167, 236);
+}
+.Beauty h1{
+    margin-top: 150px;
+    margin-left: 100px;
+    color: white;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 170px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: aliceblue;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 18px;
+    font-size: 14px;
+    color: aliceblue;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.social i{
+    font-size: 20px;
+}
+.social a:hover i{
+    color: wheat;
+}
+.footer-bottom{
+    width: 100%;
+    padding: 20px 0;
+    color: aliceblue;
+    text-align: center;
+}

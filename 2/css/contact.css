@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+background-color:#CDF0EA;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+nav .logo{
+margin-right: 90px;
+font-family: 'Ballet', cursive;
+}
+nav .logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+nav form{
+    float: right;
+    margin-top: 3px;
+}
+nav input{
+    background: rgb(255, 247, 247);
+    color: rgb(9, 10, 12);
+    height: 10px;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+nav i{
+    float: right;
+    margin-left: 5px;    
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+.head-contain{
+padding: 15px 15px;
+
+}
+.head-contain .logo a img{
+width: 200px;
+height: 70px;
+
+}
+.head-contain ul button{
+font-size: 30px;
+}
+.head-contain ul li{
+font-family: 'Press Start 2P', cursive;
+display: inline;
+margin: 20px 30px;
+font-size: 22px;
+}
+.head-contain ul li a{
+text-decoration: none;
+color: black;
+}
+.head-contain ul li a:hover{
+color: rgb(150, 167, 236);
+}
+
+/* Contact */
+#Contact{
+    width: 80%;
+    margin: 50px auto;
+}   
+.text{
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-family: 'Michroma', sans-serif;
+}
+.text h1{
+    font-size: 20px;
+    text-align: center;
+}
+.contact-box{
+    display: flex;
+
+}
+.contact-left{
+    flex-basis: 60%;
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.input-col input{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: #ccc;
+}
+.input-colside{
+    display: flex;
+}
+.input-email input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.appoint{
+    font-family: 'Montserrat', sans-serif;
+}
+.appoint label{
+    font-size: 30px;
+}
+.appoint input{
+    padding: 15px 5px;
+    margin: 15px 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: #ccc;
+}
+.appoint label{
+    padding-top: 20px;
+}
+.appoint h4{
+    padding-top: 20px;
+}
+.appoint button{
+    background-color: #deb187;
+    margin: 10px 1px;
+    padding: 10px 40px;
+    color: #000000;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: rgb(6, 7, 7);
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 18px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.social i{
+    font-size: 20px;
+}
+.social a:hover i{
+    color: rgb(134, 40, 40);
+}
+.footer-bottom{
+    width: 100%;
+    padding: 20px 0;
+    color: rgb(2, 3, 3);
+    text-align: center;
+}

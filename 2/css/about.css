@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+background-color:#f8bab7;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+nav .logo{
+margin-right: 90px;
+font-family: 'Ballet', cursive;
+}
+nav .logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+nav form{
+    float: right;
+    margin-top: 3px;
+}
+nav input{
+    background: rgb(255, 247, 247);
+    color: rgb(9, 10, 12);
+    height: 10px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+nav i{
+    float: right;
+    margin-left: 3px;    
+    margin-right: 3px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+.head-contain{
+padding: 15px 15px;
+
+}
+.head-contain .logo a img{
+width: 200px;
+height: 70px;
+
+}
+.head-contain ul button{
+font-size: 30px;
+}
+.head-contain ul li{
+font-family: 'Press Start 2P', cursive;
+display: inline;
+margin: 20px 30px;
+font-size: 22px;
+}
+.head-contain ul li a{
+text-decoration: none;
+color: black;
+}
+.head-contain ul li a:hover{
+color: rgb(150, 167, 236);
+}
+/*About*/
+img{
+    width: 450px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.Nice{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 500px;
+    font-size: 30px;
+    padding-top: 150px;
+}
+footer{
+    padding-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: rgb(6, 7, 7);
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 18px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.social i{
+    font-size: 20px;
+}
+.social a:hover i{
+    color: rgb(134, 40, 40);
+}
+.footer-bottom{
+    width: 100%;
+    padding: 20px 0;
+    color: rgb(2, 3, 3);
+    text-align: center;
+}
